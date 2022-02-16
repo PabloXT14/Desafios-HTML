@@ -1,0 +1,50 @@
+/* ===== Global Settings ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===== Contact Form Stylings ===== */
+
+form  {
+    margin: 2rem;
+}
+
+form fieldset {
+    /* position: relative; */
+    padding: 1.5rem 1rem;
+    border: 1px solid #999;
+    border-radius: 3px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+fieldset legend {
+    /* position: absolute; */
+    margin: auto;
+}
+
+.input-field + .input-field {
+    margin-top: 1rem;
+}
+
+
+.input-field.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field.inline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+/* fields */
+
+.input-field textarea {
+    resize: vertical;
+    width: 100%;
+}

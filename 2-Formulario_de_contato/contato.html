@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Entre em contato</legend>
+            <div class="input-field inline">
+                <label for="subject">Assunto:</label>
+                &nbsp;
+                <select name="subject" id="subject">
+                    <option value="suporte">Suporte</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="reclamacao">Reclamação</option>
+                </select>
+            </div>
+
+            <div class="input-field block">
+                <label for="name">Nome Completo: </label>
+                <input type="text" name="name" id="name" placeholder="Seu nome">
+            </div>
+
+            <div class="input-field block">
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email" placeholder="email@seudominio.com">
+            </div>
+
+            <div class="input-field block">
+                <label for="message">Mensagem: </label>
+                <textarea name="message" id="message" placeholder="Digite sua mensagem ...">
+                </textarea>
+            </div>
+
+            <div class="input-field inline">
+                <input type="checkbox" name="notification" id="notification">
+                &nbsp;
+                <label for="notification">Aceita receber novidades por email?</label>
+            </div>
+
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
