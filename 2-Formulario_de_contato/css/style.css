@@ -30,6 +30,17 @@ body {
     background: var(--purple);
 }
 
+body::-webkit-scrollbar {
+    width: 6px;
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgb(61, 60, 66);
+    border-radius: 3px;
+    cursor: move;
+}
+
 
 /* ===== Contact Form Stylings ===== */
 
