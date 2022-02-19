@@ -1,0 +1,112 @@
+/* ===== Global Styling ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --purple: #8257E6;
+    --white: #FFFFFF;
+    --gray-500: #CCC;
+}
+
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+body {
+    background: var(--purple);
+}
+
+/* ===== Quiz Styling ===== */
+form {
+    max-width: 50rem;
+    background: var(--white);
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+
+    h2 {
+        text-align: center;
+    }
+}
+
+
+ol {
+
+    list-style: none;
+
+    li {
+
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        div {
+            border: 1px solid var(--purple);
+            border-radius: 3px;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+
+            input {
+                cursor: pointer;
+            }   
+
+            label {
+                cursor: pointer;
+            }
+        }
+
+        div + div {
+            margin-top: 0.5rem;
+        }
+    }
+
+    li + li {
+        margin-top: 1rem;
+    }
+
+    li::marker {
+        color: var(--purple);
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+}
+
+form button[type="submit"] {
+    margin-top: 1rem;
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+
+    font-size: 1.1rem;
+    font-weight: 500;
+
+    background: var(--purple);
+    color: var(--white);
+    border: none;
+    border-radius: 3px;
+
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+
+    cursor: pointer;
+    transition: all .2s ease;
+
+    &:hover {
+        transform: translateY(-3px);
+    }
+}
+
