@@ -8,11 +8,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Post</title>
+    <!-- Page's Icon -->
+    <link rel="shortcut icon" href="./assets/favicon-blogger.png" type="image/png">
     <!-- CSS link -->
     <link rel="stylesheet" href="./css/styler.css">
     <!-- Fonts Google -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -29,16 +35,22 @@
                 <a href="#contact">Contato</a>
             </li>
         </ul>
+        <i class="fa-solid fa-bars"></i>
     </header>
 
     <article>
-        <h2 class="title-post">Titulo do Post</h2>
-        <div class="content-post">
-            <img src="https://source.unsplash.com/random" alt="imagem-post" width="400px">
-            <blockquote cite="">
-                Lorem, ipsum dolor sit amet consectetur adipisicing.
+        <h2 class="post-title">Titulo do Post</h2>
+        <div class="post-content">
+            <div class="post-image">
+                <img src="./assets/image-post.jpg" alt="imagem-post" width="400px">
+            </div>
+            <blockquote cite="https://unsplash.com/photos/npxXWgQ33ZQ">
+                Esta é uma imagem de referência do site
+                <cite>
+                    <a href="https://unsplash.com/photos/npxXWgQ33ZQ" target="_blank">Unsplash.</a>
+                </cite>
             </blockquote>
-            <div class="text-post">
+            <div class="post-text">
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse libero eum ullam veritatis! Modi
                     nesciunt est vero! Beatae, vero! Facilis inventore quibusdam, doloremque aliquid quisquam est
@@ -56,23 +68,36 @@
         </div>
         <hr />
         <aside>
-            <p class="date-post">
+            <div class="post-data">
                 <strong>data: </strong>
                 <span>04/08/2021</span>
-            </p>
-            <div class="author-img">
-                <img src="https://source.unsplash.com/random" alt="image-author" width="200px">
             </div>
-            <p class="author-name">
-                <strong>por: </strong>
-                <span>John Doe</span>
-            </p>
-            <p class="author-description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, earum?
-            </p>
+            <div class="post-author">
+                <div class="author-img">
+                    <img src="./assets/author-image.jpg" alt="image-author" width="200px">
+                </div>
+                <div class="author-details">
+                    <p class="author-name">
+                        <span>John Doe</span>
+                    </p>
+                    <p class="author-description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, earum?
+                    </p>
+                </div>
+            </div>
         </aside>
     </article>
 
+    <script>
+        const btnMenuMobile = document.querySelector("i.fa-bars");
+        const menu = document.querySelector("ul.menu");
+
+        btnMenuMobile.addEventListener("click", (e) => {
+            btnMenuMobile.classList.toggle("show");
+            menu.classList.toggle("show");
+        });
+
+    </script>
 </body>
 
 </html>
