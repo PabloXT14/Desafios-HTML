@@ -92,10 +92,18 @@
         const btnMenuMobile = document.querySelector("i.fa-bars");
         const menu = document.querySelector("ul.menu");
 
+        // Checando se clicou no menu mobile
         btnMenuMobile.addEventListener("click", (e) => {
             btnMenuMobile.classList.toggle("show");
             menu.classList.toggle("show");
         });
+
+        // Check if user take scroll on page
+        window.onscroll = () => {
+            btnMenuMobile.classList.remove("show");
+            menu.classList.remove("show");
+        }
+
 
     </script>
 </body>
