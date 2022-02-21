@@ -1,187 +1,159 @@
 /* ===== Global Settings ===== */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 :root {
-    --purple: #8257E6;
-    --white: #FFFFFF;
-    --gray-500: #CCC;
-
+  --purple: #8257E6;
+  --white: #FFFFFF;
+  --gray-500: #CCC;
+  --gray-700: #999;
 }
 
 @media (max-width: 1080px) {
-    html {
-        font-size: 93.75%;
-    }
+  html {
+    font-size: 93.75%;
+  }
 }
 
 @media (max-width: 720px) {
-    html {
-        font-size: 87.5%;
-    }
+  html {
+    font-size: 87.5%;
+  }
 }
 
 body {
-    scroll-behavior: smooth;
-    background: var(--purple);
+  scroll-behavior: smooth;
+  background: var(--purple);
 }
 
 body::-webkit-scrollbar {
-    width: 6px;
-    background: transparent;
+  width: 6px;
+  background: transparent;
 }
 
 body::-webkit-scrollbar-thumb {
-    background: rgb(61, 60, 66);
-    border-radius: 3px;
-    cursor: move;
+  background: #3d3c42;
+  border-radius: 3px;
+  cursor: move;
 }
 
-
 /* ===== Contact Form Stylings ===== */
-
-form  {
-    margin: 2rem auto;
-    max-width: 30rem;
-    background: var(--white);
-    padding: 1.5rem 1rem;
-    border-radius: 4px;
-    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+form {
+  margin: 2rem auto;
+  max-width: 30rem;
+  background: var(--white);
+  padding: 1.5rem 1rem;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
 }
 
 form fieldset {
-    border: none;
+  border: none;
 }
 
-fieldset legend {
-    margin: auto;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: var(--purple);
+form fieldset legend {
+  margin: auto;
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--purple);
 }
 
-.input-field + .input-field {
-    margin-top: 1rem;
+form fieldset .inline {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.1rem;
 }
 
-
-.input-field label {
-    font-size: 1.1rem;
-    font-weight: 500;
+form fieldset .block {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.input-field.block {
-    display: flex;
-    flex-direction: column;
+form fieldset .input-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.input-field.inline {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+form fieldset .input-field + .input-field {
+  margin-top: 0.7rem;
 }
 
-
-/* fields */
-
-.input-field input[type="text"],
-.input-field input[type="email"],
-.input-field textarea {
-    width: 100%;
-    padding: 0 0.5rem;
-    font-size: 0.9rem;
-    border: 1px solid var(--gray-500);
-    border-radius: 3px;
-
-    transition: all .2 ease;
+form fieldset .input-field label {
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
-.input-field input[type="text"]:focus,
-.input-field input[type="email"]:focus,
-.input-field textarea:focus {
-    border: none;
-    outline: 2px solid var(--purple);
+form fieldset .input-field label[for="notification"] {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 0.5rem;
 }
 
-.input-field input[type="text"],
-.input-field input[type="email"] {
-    height: 3rem;
-    line-height: 3rem;
+form fieldset .input-field select {
+  border: 1px solid var(--gray-700);
+  border-radius: 3px;
+  padding: 0.4rem;
+  font-size: 0.9rem;
+  color: var(--purple);
 }
 
-
-.input-field textarea {
-    resize: vertical;
-    padding-top: 0.7rem;
-    min-height: 7rem;
+form fieldset .input-field select:focus {
+  border: none;
+  outline: 2px solid var(--purple);
 }
 
-/* checkbox */
-.input-field label[for="notification"]{
-    font-size: 1rem;
-    font-weight: 400;
-    margin-left: 0.5rem;
+form fieldset .input-field input[type="text"], form fieldset .input-field input[type="email"], form fieldset .input-field textarea {
+  border: 1px solid var(--gray-700);
+  border-radius: 3px;
+  padding: 0.4rem;
+  font-size: 0.9rem;
+  color: var(--purple);
 }
 
-input[type=checkbox] {
-    position: relative;
-    cursor: pointer;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-}
-input[type=checkbox]::before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 1rem;
-    height: 1rem;
-    top: 0;
-    left: 0;
-    background-color: var(--gray-500);
-}
-input[type=checkbox]:checked:before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 1rem;
-    height: 1rem;
-    top: 0;
-    left: 0;
-    background-color: var(--purple);
-}
-input[type=checkbox]:checked:after {
-    content: "✔";
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
+form fieldset .input-field input[type="text"]:focus, form fieldset .input-field input[type="email"]:focus, form fieldset .input-field textarea:focus {
+  border: none;
+  outline: 2px solid var(--purple);
 }
 
-/* Button */
-button[type="submit"] {
-    margin-top: 1rem;
-    width: 100%;
-    height: 2.5rem;
-    line-height: 2.5rem;
-    font-size: 1rem;
-    font-weight: 500;
-    background: var(--purple);
-    color: var(--white);
-    border: none;
-    border-radius: 2px;
-
-    cursor: pointer;
-    transition: all .3s ease;
+form fieldset .input-field textarea {
+  resize: vertical;
+  min-height: 10rem;
 }
 
-button[type="submit"]:hover {
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-    transform: translateY(-5px);
+form fieldset button[type="submit"] {
+  margin-top: 1rem;
+  width: 100%;
+  height: 2.5rem;
+  border: none;
+  border-radius: 3px;
+  color: var(--white);
+  background: var(--purple);
+  font-size: 1.1rem;
+  font-weight: 500;
+  -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
 }
 
+form fieldset button[type="submit"]:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+/*# sourceMappingURL=style.css.map */
