@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ===== Global Settings ===== */
 * {
   margin: 0;
@@ -133,6 +134,53 @@ form fieldset .input-field input[type="text"]:focus, form fieldset .input-field 
 form fieldset .input-field textarea {
   resize: vertical;
   min-height: 10rem;
+}
+
+form fieldset .input-field input[type="checkbox"] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-apparence: none;
+  height: 1.2rem;
+  width: 1.2rem;
+  background: var(--gray-500);
+  border-radius: 0.18rem;
+  /*+ou- 3px*/
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* Icon de Check */
+}
+
+form fieldset .input-field input[type="checkbox"]::after {
+  font-family: 'Font Awesome 6 Free';
+  /* precisa dessa linha para aparecer o icon */
+  font-weight: 900;
+  /* precisa ser um valor auto para o icon aparecer */
+  content: '\f00c';
+  /* código do icone */
+  font-size: 1rem;
+  color: var(--white);
+  display: none;
+}
+
+form fieldset .input-field input[type="checkbox"]:hover {
+  background: var(--gray-700);
+}
+
+form fieldset .input-field input[type="checkbox"]:checked {
+  background: var(--purple);
+}
+
+form fieldset .input-field input[type="checkbox"]:checked::after {
+  display: block;
 }
 
 form fieldset button[type="submit"] {

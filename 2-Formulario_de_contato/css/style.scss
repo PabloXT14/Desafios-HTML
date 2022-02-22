@@ -123,7 +123,39 @@ form  {
             }
 
             input[type="checkbox"] {
-                
+                appearance: none;
+                -webkit-apparence: none;
+                height: 1.2rem;
+                width: 1.2rem;
+                background: var(--gray-500);
+                border-radius: 0.18rem;/*+ou- 3px*/
+                cursor: pointer;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                /* Icon de Check */
+                &::after {
+                    font-family: 'Font Awesome 6 Free';/* precisa dessa linha para aparecer o icon */
+                    font-weight: 900;/* precisa ser um valor auto para o icon aparecer */
+                    content: '\f00c';/* código do icone */
+                    font-size: 1rem;
+                    color: var(--white);
+                    display: none;
+                }
+
+                &:hover {
+                    background: var(--gray-700);
+                }
+
+                &:checked {
+                    background: var(--purple);
+                }
+
+                &:checked::after {
+                    display: block;
+                }
             }
         }
 

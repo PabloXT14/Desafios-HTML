@@ -3,10 +3,115 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --purple: #8257E6;
+    --white: #FFFFFF;
+
+    --gray-500: #CCCCCC;
+    --gray-700: #999999;
+
+    --black-900: #121214;
 }
 
 
-/* ===== Shopping List Styling ===== */
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
 
+@media (max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+
+body {
+    background: var(--purple);
+}
+
+/* ===== Shopping List Styling ===== */
+.wrapper {
+    max-width: 20rem;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+
+    background: var(--white);
+    border-radius: 4px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+
+    h1 {
+        color: var(--purple);
+        text-align: center;
+    }
+
+    hr {
+        border: 1px solid var(--purple);
+        margin: 0.5rem 0;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            padding: 0.3rem;
+            display: flex;
+            align-items: center;
+
+            & + li {
+                border-top: 1px solid var(--gray-500);
+            }
+
+            label {
+                flex: 1;
+                margin-left: 0.7rem;
+                font-size: 1.1rem;
+                font-weight: 500;
+            }
+
+            input[type="checkbox"] {
+                appearance: none;
+                -webkit-appearance: none;
+                height: 1.1rem;
+                width: 1.1rem;
+                background: var(--gray-500);
+                border-radius: 3px;
+                cursor: pointer;
+
+                display: grid;
+                place-content: center;
+                
+
+                &::after {
+                    font-family: 'Font Awesome 6 Free';
+                    content: '\f00c';
+                    font-size: 1rem;
+                    font-weight: 900;
+                    color: var(--white);
+                    display: none;
+                }
+
+                &:checked {
+                    background: var(--purple);
+                }
+
+                &:checked::after {
+                    display: block;
+                }
+
+                &:checked + label {
+                    text-decoration: line-through;
+                    font-style: italic;
+                    color: var(--purple);
+                }
+
+            }
+        }
+    }
+}
 
 

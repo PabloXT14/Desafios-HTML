@@ -4,7 +4,115 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --purple: #8257E6;
+  --white: #FFFFFF;
+  --gray-500: #CCCCCC;
+  --gray-700: #999999;
+  --black-900: #121214;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: var(--purple);
 }
 
 /* ===== Shopping List Styling ===== */
+.wrapper {
+  max-width: 20rem;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background: var(--white);
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+          box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+}
+
+.wrapper h1 {
+  color: var(--purple);
+  text-align: center;
+}
+
+.wrapper hr {
+  border: 1px solid var(--purple);
+  margin: 0.5rem 0;
+}
+
+.wrapper ul {
+  list-style: none;
+}
+
+.wrapper ul li {
+  padding: 0.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper ul li + li {
+  border-top: 1px solid var(--gray-500);
+}
+
+.wrapper ul li label {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 0.7rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.wrapper ul li input[type="checkbox"] {
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  height: 1.1rem;
+  width: 1.1rem;
+  background: var(--gray-500);
+  border-radius: 3px;
+  cursor: pointer;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+.wrapper ul li input[type="checkbox"]::after {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f00c';
+  font-size: 1rem;
+  font-weight: 900;
+  color: var(--white);
+  display: none;
+}
+
+.wrapper ul li input[type="checkbox"]:checked {
+  background: var(--purple);
+}
+
+.wrapper ul li input[type="checkbox"]:checked::after {
+  display: block;
+}
+
+.wrapper ul li input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  font-style: italic;
+  color: var(--purple);
+}
 /*# sourceMappingURL=style.css.map */
