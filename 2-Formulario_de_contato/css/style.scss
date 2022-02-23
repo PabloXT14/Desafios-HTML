@@ -11,6 +11,8 @@
     --white: #FFFFFF;
     --gray-500: #CCC;
     --gray-700: #999;
+
+    --black: #121214;
 }
 
 @media (max-width: 1080px) {
@@ -181,11 +183,57 @@ form  {
                 transform: translateY(-3px);
             }
         }
-
     }
-
-
 }
 
+
+/* ===== Success Page Styling ===== */
+
+div.success-box {
+    background: var(--white);
+    max-width: 26rem;
+    margin: 7rem auto;
+    padding: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+
+    i {
+        font-size: 2rem;
+        color: var(--white);
+        background: var(--purple);
+
+        padding: 0.5rem;
+        border-radius: 50%;
+        
+        transition: all .3s ease;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .observations {
+        background: var(--purple);
+        color: var(--white);
+        // text-align: left;
+        padding: 0.5rem;
+        font-size: 1rem;
+
+        border-radius: 4px;
+
+    }
+}
 
 
