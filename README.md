@@ -1,5 +1,15 @@
 # Desafios HTML
 
+<p align="center">
+ <a href="#glossário">Glossário</a> |
+ <a href="#formulário-de-contato">Formulário de Contato</a> |
+ <a href="#lista-de-compras">Lista de Compras</a> |
+ <a href="#quiz">Quiz</a> |
+ <a href="#blog-post">Blog Post</a>
+</p>
+
+---
+
 Estes são projetos feitos como conclusão de Desafios básicos sobre HTML, tanto para relembrar quanto para aprimorar conceitos base desta linguagem de marcação. No entanto, apliquei um pouco de estilização e funcionalidades para deixar o visual das páginas um pouco mais agradável, mas isso não interfere tanto na proposta principal do desafio.
 
 * E para quem quiser relembrar conceitos base de HTML aqui está o link dos Desafios: <a target="_blank" href="https://efficient-sloth-d85.notion.site/Desafios-HTML-ed0f6368d34d44ffab92686b9dc93229">Link Desafios</a>
@@ -32,9 +42,23 @@ Estes são projetos feitos como conclusão de Desafios básicos sobre HTML, tant
 ### ✍ Descrição do Projeto: <a href="https://github.com/PabloXT14/Desafios-HTML/tree/main/3-Lista_de_compras">Link</a>
 ### 🏍 Deploy: <a href="https://pabloxt14.github.io/Desafios-HTML/3-Lista_de_compras/shopping-list.html">Link</a>
 
+
 ## Quiz
+<p align="center">
+    <img alt="Lista Preview" title="Lista Preview" src="./github/Dem01-GoRestaurant-Web.gif" height="425" />
+</p>
+
+### ✍ Descrição do Projeto: <a href="https://github.com/PabloXT14/Desafios-HTML/tree/main/4-Quiz">Link</a>
+
+### 🏍 Deploy: <a href="https://pabloxt14.github.io/Desafios-HTML/4-Quiz/quiz.html">Link</a>
 
 
 ## Blog Post
+<p align="center">
+    <img alt="Lista Preview" title="Lista Preview" src="./github/Dem01-GoRestaurant-Web.gif" height="425" />
+</p>
 
+### ✍ Descrição do Projeto: <a href="https://github.com/PabloXT14/Desafios-HTML/tree/main/5-Blog_Post">Link</a>
+
+### 🏍 Deploy: <a href="https://pabloxt14.github.io/Desafios-HTML/5-Blog_Post/blog-post.html">Link</a>
 
