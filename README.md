@@ -1,4 +1,4 @@
-# Desafios HTML
+<h1 align="center"> Desafios HTML </h1>
 
 <p align="center">
  <a href="#glossário">Glossário</a> |
@@ -45,7 +45,7 @@ Estes são projetos feitos como conclusão de Desafios básicos sobre HTML, tant
 
 ## Quiz
 <p align="center">
-    <img alt="Lista Preview" title="Lista Preview" src="./github/Dem01-GoRestaurant-Web.gif" height="425" />
+    <img alt="Quiz Preview" title="Quiz Preview" src="./github/Dem01-GoRestaurant-Web.gif" height="425" />
 </p>
 
 ### ✍ Descrição do Projeto: <a href="https://github.com/PabloXT14/Desafios-HTML/tree/main/4-Quiz">Link</a>
@@ -55,10 +55,24 @@ Estes são projetos feitos como conclusão de Desafios básicos sobre HTML, tant
 
 ## Blog Post
 <p align="center">
-    <img alt="Lista Preview" title="Lista Preview" src="./github/Dem01-GoRestaurant-Web.gif" height="425" />
+    <img alt="Blog Post Preview" title="Blog Post Preview" src="./github/Dem01-GoRestaurant-Web.gif" height="425" />
 </p>
 
 ### ✍ Descrição do Projeto: <a href="https://github.com/PabloXT14/Desafios-HTML/tree/main/5-Blog_Post">Link</a>
 
 ### 🏍 Deploy: <a href="https://pabloxt14.github.io/Desafios-HTML/5-Blog_Post/blog-post.html">Link</a>
 
+
+## ✍ Author
+<img alt="PabloXT14" title="PabloXT14" src="https://avatars.githubusercontent.com/u/71723595?s=400&u=f7a1ec0c2e1f7cd1acf79f61043dbc75b1079de6&v=4" width="100">
+<p>
+    Made with 💜 by PabloXT14
+</p>
+<p align="left">
+    <a href="https://www.linkedin.com/in/pabloalan/" target="_blank">
+        <img align="center" src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Pablo Alan" />
+    </a>
+    <a href="mailto:pabloxt14@gmail.com" target="_blank">
+        <img align="center" src="https://img.shields.io/badge/Gmail-FF0000?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Pablo Alan" />
+    </a>
+</p>
