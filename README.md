@@ -21,8 +21,8 @@ Estes são projetos feitos como conclusão de Desafios básicos sobre HTML, tant
     <img alt="Glossário Preview" title="Glossário Preview" src="./github/Dem01-GoRestaurant-Web.gif" height="425" />
 </p>
 
-### ✍ Descrição do Projeto: <a target="_blank" href="https://github.com/PabloXT14/Desafios-HTML/tree/main/1-Glossario">Link</a>
-### 🏍 Deploy: <a target="_blank" href="https://pabloxt14.github.io/Desafios-HTML/1-Glossario/glossary.html">Link</a>
+### 📝 Descrição do Projeto: <a target="_blank" href="https://github.com/PabloXT14/Desafios-HTML/tree/main/1-Glossario">Link</a>
+### 💻 Deploy: <a target="_blank" href="https://pabloxt14.github.io/Desafios-HTML/1-Glossario/glossary.html">Link</a>
 
 
 ## Formulário de Contato
@@ -30,8 +30,8 @@ Estes são projetos feitos como conclusão de Desafios básicos sobre HTML, tant
     <img alt="Form Preview" title="Form Preview" src="./github/Dem01-GoRestaurant-Web.gif" height="425" />
 </p>
 
-### ✍ Descrição do Projeto: <a href="https://github.com/PabloXT14/Desafios-HTML/tree/main/2-Formulario_de_contato">Link</a>
-### 🏍 Deploy: <a href="https://pabloxt14.github.io/Desafios-HTML/2-Formulario_de_contato/contato.html">Link</a>
+### 📝 Descrição do Projeto: <a href="https://github.com/PabloXT14/Desafios-HTML/tree/main/2-Formulario_de_contato">Link</a>
+### 💻 Deploy: <a href="https://pabloxt14.github.io/Desafios-HTML/2-Formulario_de_contato/contato.html">Link</a>
 
 
 ## Lista de Compras
@@ -39,8 +39,8 @@ Estes são projetos feitos como conclusão de Desafios básicos sobre HTML, tant
     <img alt="Lista Preview" title="Lista Preview" src="./github/Dem01-GoRestaurant-Web.gif" height="425" />
 </p>
 
-### ✍ Descrição do Projeto: <a href="https://github.com/PabloXT14/Desafios-HTML/tree/main/3-Lista_de_compras">Link</a>
-### 🏍 Deploy: <a href="https://pabloxt14.github.io/Desafios-HTML/3-Lista_de_compras/shopping-list.html">Link</a>
+### 📝 Descrição do Projeto: <a href="https://github.com/PabloXT14/Desafios-HTML/tree/main/3-Lista_de_compras">Link</a>
+### 💻 Deploy: <a href="https://pabloxt14.github.io/Desafios-HTML/3-Lista_de_compras/shopping-list.html">Link</a>
 
 
 ## Quiz
@@ -48,9 +48,9 @@ Estes são projetos feitos como conclusão de Desafios básicos sobre HTML, tant
     <img alt="Quiz Preview" title="Quiz Preview" src="./github/Dem01-GoRestaurant-Web.gif" height="425" />
 </p>
 
-### ✍ Descrição do Projeto: <a href="https://github.com/PabloXT14/Desafios-HTML/tree/main/4-Quiz">Link</a>
+### 📝 Descrição do Projeto: <a href="https://github.com/PabloXT14/Desafios-HTML/tree/main/4-Quiz">Link</a>
 
-### 🏍 Deploy: <a href="https://pabloxt14.github.io/Desafios-HTML/4-Quiz/quiz.html">Link</a>
+### 💻 Deploy: <a href="https://pabloxt14.github.io/Desafios-HTML/4-Quiz/quiz.html">Link</a>
 
 
 ## Blog Post
@@ -58,9 +58,9 @@ Estes são projetos feitos como conclusão de Desafios básicos sobre HTML, tant
     <img alt="Blog Post Preview" title="Blog Post Preview" src="./github/Dem01-GoRestaurant-Web.gif" height="425" />
 </p>
 
-### ✍ Descrição do Projeto: <a href="https://github.com/PabloXT14/Desafios-HTML/tree/main/5-Blog_Post">Link</a>
+### 📝 Descrição do Projeto: <a href="https://github.com/PabloXT14/Desafios-HTML/tree/main/5-Blog_Post">Link</a>
 
-### 🏍 Deploy: <a href="https://pabloxt14.github.io/Desafios-HTML/5-Blog_Post/blog-post.html">Link</a>
+### 💻 Deploy: <a href="https://pabloxt14.github.io/Desafios-HTML/5-Blog_Post/blog-post.html">Link</a>
 
 
 ## ✍ Author
