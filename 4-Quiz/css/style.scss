@@ -10,6 +10,8 @@
 :root {
     --purple: #8257E6;
     --white: #FFFFFF;
+    --green: #58d858;
+
 
     --gray-500: #CCC;
     --gray-700: #999999;
@@ -141,6 +143,10 @@ form {
                     &:hover {
                         transform: scale(1.03);
                     }
+                }
+
+                label.correct {
+                    outline: 2px solid var(--green);
                 }
 
 

@@ -10,6 +10,7 @@
 :root {
   --purple: #8257E6;
   --white: #FFFFFF;
+  --green: #58d858;
   --gray-500: #CCC;
   --gray-700: #999999;
   --black-800: #121214;
@@ -116,6 +117,10 @@ form ol li div label {
 form ol li div label:hover {
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
+}
+
+form ol li div label.correct {
+  outline: 2px solid var(--green);
 }
 
 form button[type="submit"] {

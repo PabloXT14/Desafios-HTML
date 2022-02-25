@@ -21,11 +21,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-"",
-"",
-"",
-"",
-
 <body>
     <form action="#">
         <h1>Quiz</h1>
@@ -51,7 +46,7 @@
             </li>
 
             <li>
-                <h3>O que significa CSS</h3>
+                <h3>O que significa CSS?</h3>
                 <div>
                     <input type="radio" name="question-2" id="question-2-a" value="A" required />
                     <label for="question-2-a">A) Common Style Sheet</label>
@@ -71,7 +66,7 @@
             </li>
 
             <li>
-                <h3>O que significa JS</h3>
+                <h3>O que significa JS?</h3>
                 <div>
                     <input type="radio" name="question-3" id="question-3-a" value="A" required />
                     <label for="question-3-a">A) JQuery</label>
@@ -91,7 +86,7 @@
             </li>
 
             <li>
-                <h3>O que significa SQL</h3>
+                <h3>O que significa SQL?</h3>
                 <div>
                     <input type="radio" name="question-4" id="question-4-a" value="A" required />
                     <label for="question-4-a">A) Stylish Question Language</label>
@@ -115,6 +110,43 @@
             Enviar
         </button>
     </form>
+
+
+    <script>
+        const quiz = document.querySelector('form');
+        const options = document.querySelectorAll('div label');
+        const correctAnswers = [
+            'question-1-b',
+            'question-2-d',
+            'question-3-c',
+            'question-4-d'
+        ]
+
+        /* === Finalizar/Enviar Quiz === */
+        quiz.addEventListener("submit", (event) => {
+            event.preventDefault();
+
+            options.forEach(option => {
+                const optionValue = option.getAttribute("for");
+                const isCorrect = checkIfAnswerdIsCorrect(optionValue);
+
+                isCorrect != false ? option.classList.add('correct') : '';
+
+                option.style.pointerEvents = 'none';
+            });
+        });
+
+        /* === Checando se Resposta está correta === */
+        function checkIfAnswerdIsCorrect(answerd) {
+            let result = false;
+            correctAnswers.forEach(correctAns => {
+                if (answerd === correctAns) result = true;
+            });
+
+            return result;
+        }
+
+    </script>
 </body>
 
 </html>
