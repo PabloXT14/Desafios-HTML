@@ -4,7 +4,7 @@ Este é um projeto básico de um Blog de Postagem fictício, onde se tem uma pá
 
 ## 📷 Demonstration
 <p align="center">
-    <img alt="Glossario Preview" title="Glossario Preview" src="./github/Dem03-GoRestaurant-Mobile.gif" height="425" />
+    <img alt="Blog Post Preview" title="Blog Post Preview" src="./github/Dem03-GoRestaurant-Mobile.gif" height="425" />
 </p>
 
 

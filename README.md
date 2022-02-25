@@ -18,7 +18,7 @@ Estes são projetos feitos como conclusão de Desafios básicos sobre HTML, tant
 
 ## Glossário
 <p align="center">
-    <img alt="Glossário Preview" title="Glossário Preview" src="./github/Dem01-GoRestaurant-Web.gif" height="425" />
+    <img alt="Glossário Preview" title="Glossário Preview" src="./github/Glossario-Preview.gif" height="425" />
 </p>
 
 ### 📝 Descrição do Projeto: <a target="_blank" href="https://github.com/PabloXT14/Desafios-HTML/tree/main/1-Glossario">Link</a>
