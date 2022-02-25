@@ -4,7 +4,7 @@ Este é um projeto básico de um Formulário de Contato, onde você preenche os 
 
 ## 📷 Demonstration
 <p align="center">
-    <img alt="Glossario Preview" title="Glossario Preview" src="./github/Dem03-GoRestaurant-Mobile.gif" height="425" />
+    <img alt="Preview Formulario" title="Preview Formulario" src="../github/Preview-Desafio02-Formulario.gif" height="425" />
 </p>
 
 
@@ -29,7 +29,7 @@ Este é um projeto básico de um Formulário de Contato, onde você preenche os 
 ## 📋 Clipboard (Pré-requisitos)
 - Antes de baixar o projeto você vai precisar ter instalado na sua máquina as seguintes ferramentas:
     * [Git](https://git-scm.com)
-
+    * [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass): este é um plugin do VS Code que converte arquivos de SASS para CSS, para caso você queira editar a estilização do projeto direto pelo arquivo com extensão `.scss`.
 
 ## ⚙ Settings
 - Segue os comandos para baixar e executar o projeto na sua máquina:

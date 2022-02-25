@@ -4,7 +4,7 @@ Este é um projeto básico de uma Lista de Compras fictícia, onde você clica e
 
 ## 📷 Demonstration
 <p align="center">
-    <img alt="Lista Preview" title="Lista Preview" src="./github/Dem03-GoRestaurant-Mobile.gif" height="425" />
+    <img alt="Lista Preview" title="Lista Preview" src="../github/Preview-Desafio03-Lista.gif" height="425" />
 </p>
 
 
@@ -25,7 +25,7 @@ Este é um projeto básico de uma Lista de Compras fictícia, onde você clica e
 ## 📋 Clipboard (Pré-requisitos)
 - Antes de baixar o projeto você vai precisar ter instalado na sua máquina as seguintes ferramentas:
     * [Git](https://git-scm.com)
-
+    * [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass): este é um plugin do VS Code que converte arquivos de SASS para CSS, para caso você queira editar a estilização do projeto direto pelo arquivo com extensão `.scss`.
 
 ## ⚙ Settings
 - Segue os comandos para baixar e executar o projeto na sua máquina:

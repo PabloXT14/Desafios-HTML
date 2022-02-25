@@ -1,10 +1,10 @@
 <h1 align="center"> Glossário </h1>
 
-Este é um projeto básico de um Glossário fictício, onde ao você clicar/passar o mouse por cima de um termo mostra seus significado logo abaixo.
+Este é um projeto básico de um Glossário fictício, onde ao você clicar/passar o mouse por cima de um termo mostra-se seu significado logo abaixo.
 
 ## 📷 Demonstration
 <p align="center">
-    <img alt="Glossario Preview" title="Glossario Preview" src="./github/Dem03-GoRestaurant-Mobile.gif" height="425" />
+    <img alt="Glossario Preview" title="Glossario Preview" src="../github/Preview-Desafio01-Glossario.gif" height="425" />
 </p>
 
 
@@ -25,6 +25,7 @@ Este é um projeto básico de um Glossário fictício, onde ao você clicar/pass
 ## 📋 Clipboard (Pré-requisitos)
 - Antes de baixar o projeto você vai precisar ter instalado na sua máquina as seguintes ferramentas:
     * [Git](https://git-scm.com)
+    * [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass): este é um plugin do VS Code que converte arquivos de SASS para CSS, para caso você queira editar a estilização do projeto direto pelo arquivo com extensão `.scss`.
 
 
 ## ⚙ Settings
