@@ -16,6 +16,8 @@ Estes são projetos feitos como conclusão de Desafios básicos sobre HTML, tant
 
 * OBS: estes desafios foram desenvolvidos pela empresa da <a target="_blank" href="https://www.rocketseat.com.br/">Rocketseat</a>
 
+* Caso goste do projeto marque a estrelinha⭐ e siga meu perfil para me ajudar 👍
+
 ## Glossário
 <p align="center">
     <img alt="Glossário Preview" title="Glossário Preview" src="./github/Preview-Desafio01-Glossario.gif" height="425" />
