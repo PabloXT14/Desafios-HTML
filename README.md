@@ -18,7 +18,7 @@ Estes são projetos feitos como conclusão de Desafios básicos sobre HTML, tant
 
 ## Glossário
 <p align="center">
-    <img alt="Glossário Preview" title="Glossário Preview" src="./github/Glossario-Preview.gif" height="425" />
+    <img alt="Glossário Preview" title="Glossário Preview" src="./github/Preview-Desafio01-Glossario.gif" height="425" />
 </p>
 
 ### 📝 Descrição do Projeto: <a target="_blank" href="https://github.com/PabloXT14/Desafios-HTML/tree/main/1-Glossario">Link</a>
@@ -27,7 +27,7 @@ Estes são projetos feitos como conclusão de Desafios básicos sobre HTML, tant
 
 ## Formulário de Contato
 <p align="center">
-    <img alt="Form Preview" title="Form Preview" src="./github/Dem01-GoRestaurant-Web.gif" height="425" />
+    <img alt="Form Preview" title="Form Preview" src="./github/Preview-Desafio02-Formulario.gif" height="425" />
 </p>
 
 ### 📝 Descrição do Projeto: <a href="https://github.com/PabloXT14/Desafios-HTML/tree/main/2-Formulario_de_contato">Link</a>
@@ -36,7 +36,7 @@ Estes são projetos feitos como conclusão de Desafios básicos sobre HTML, tant
 
 ## Lista de Compras
 <p align="center">
-    <img alt="Lista Preview" title="Lista Preview" src="./github/Dem01-GoRestaurant-Web.gif" height="425" />
+    <img alt="Lista Preview" title="Lista Preview" src="./github/Preview-Desafio03-Lista.gif" height="425" />
 </p>
 
 ### 📝 Descrição do Projeto: <a href="https://github.com/PabloXT14/Desafios-HTML/tree/main/3-Lista_de_compras">Link</a>
@@ -45,7 +45,7 @@ Estes são projetos feitos como conclusão de Desafios básicos sobre HTML, tant
 
 ## Quiz
 <p align="center">
-    <img alt="Quiz Preview" title="Quiz Preview" src="./github/Dem01-GoRestaurant-Web.gif" height="425" />
+    <img alt="Quiz Preview" title="Quiz Preview" src="./github/Preview-Desafio04-Quiz.gif" height="425" />
 </p>
 
 ### 📝 Descrição do Projeto: <a href="https://github.com/PabloXT14/Desafios-HTML/tree/main/4-Quiz">Link</a>
@@ -55,7 +55,7 @@ Estes são projetos feitos como conclusão de Desafios básicos sobre HTML, tant
 
 ## Blog Post
 <p align="center">
-    <img alt="Blog Post Preview" title="Blog Post Preview" src="./github/Dem01-GoRestaurant-Web.gif" height="425" />
+    <img alt="Blog Post Preview" title="Blog Post Preview" src="./github/Preview-Desafio05-Blog_Post.gif" height="425" />
 </p>
 
 ### 📝 Descrição do Projeto: <a href="https://github.com/PabloXT14/Desafios-HTML/tree/main/5-Blog_Post">Link</a>
